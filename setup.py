@@ -23,8 +23,8 @@ sys.path.append(join(dirname(__file__), "XvfbRobot"))
 execfile(join(dirname(__file__), "XvfbRobot", "version.py"))
 
 
-setup(name              = "XfvbRobot",
-      version           = __version__,
+setup(name              = "robotframework-xvfb",
+      version           = VERSION,
       description       = "Robot library for interacting with Xvfb",
       long_description  = "XvfbRobot is a robot library which is a wrapper for a xvfbwrapper",
       author            = "Dmitriy Robota",
