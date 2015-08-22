@@ -1,2 +1,3 @@
 recursive-include XvfbRobot *.py
 include README.md
+include README

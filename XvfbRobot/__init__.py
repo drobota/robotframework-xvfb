@@ -14,8 +14,10 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-from version import __version__
+from version import VERSION
 from XvfbRobot import XvfbRobot
+
+__version__ = VERSION
 
 
 class XvfbRobot(XvfbRobot):
@@ -23,3 +25,4 @@ class XvfbRobot(XvfbRobot):
     A robot library for creating virtual display on demand
     """
     ROBOT_LIBRARY_SCOPE = "GLOBAL"
+    ROBOT_LIBRARY_VERSION = VERSION
