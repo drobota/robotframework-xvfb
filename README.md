@@ -26,7 +26,21 @@ Install pip.
 Enter the following:
 
     pip install robotframework-xvfb
+    
+Usage
+------------
 
+    *** Settings ***
+    Documentation     This example demonstrates how to use current library
+    Library      Selenium2Library
+    Library      XvfbRobot
+    *** Test Cases ***
+    Create Headless Browser
+        Start Virtual Display    1920    1080
+        Open Browser   http://google.com
+        Set Window Size    1920    1080
+        [Teardown]    Close Browser
+        
 Getting Help
 ------------
 The [user group for Robot Framework](http://groups.google.com/group/robotframework-users) is the best place to get help. Include in the post:
