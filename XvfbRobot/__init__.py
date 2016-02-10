@@ -14,8 +14,8 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-from version import VERSION
-from XvfbRobot import XvfbRobot
+from XvfbRobot.version import VERSION
+from XvfbRobot.XvfbRobot import XvfbRobot
 
 __version__ = VERSION
 
