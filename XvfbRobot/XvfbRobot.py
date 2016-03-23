@@ -20,7 +20,7 @@ from xvfbwrapper import Xvfb
 from robot.api import logger
 
 
-class XvfbRobot:
+class XvfbRobot(object):
     _display = None
 
     def start_virtual_display(self, width=1440, height=900,

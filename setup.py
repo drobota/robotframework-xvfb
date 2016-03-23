@@ -20,7 +20,7 @@ from os.path import join, dirname
 
 sys.path.append(join(dirname(__file__), "XvfbRobot"))
 
-execfile(join(dirname(__file__), "XvfbRobot", "version.py"))
+exec(compile(open(join(dirname(__file__), "XvfbRobot", "version.py")).read(), 'version.py', 'exec'))
 
 
 setup(name              = "robotframework-xvfb",
