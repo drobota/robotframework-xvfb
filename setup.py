@@ -37,8 +37,11 @@ setup(name              = "robotframework-xvfb",
                               "Programming Language :: Python",
                               "Intended Audience :: Developers",
                               "Programming Language :: Python :: 2.7",
+                              "Programming Language :: Python :: 3.4",
+                              "Programming Language :: Python :: 3.5",
                               "Topic :: Software Development :: Testing",
-                              "Topic :: Software Development :: Quality Assurance"
+                              "Topic :: Software Development :: Quality Assurance",
+                              "Framework :: Robot Framework"
                         ],
       install_requires  = ["robotframework","xvfbwrapper"],
       packages          = ["XvfbRobot"],
