@@ -5,14 +5,16 @@ XvfbRobot library for Robot Framework
 Introduction
 ------------
 
-A simple robot library for creating virtual display which can be used for running selenium tests in headless mode, internally uses a [xvfbwrapper](https://pypi.python.org/pypi/xvfbwrapper/0.2.4).
+A simple robot library for creating virtual display which can be used for running selenium tests in headless mode, internally uses a [xvfbwrapper](https://pypi.python.org/pypi/xvfbwrapper/0.2.5).
 
 - Information about keywords can be found on the [Keyword Documentation](https://github.com/drobota/robotframework-xvfb/docs/robotframework-xvfb.html) page.
 
 
 Requirements
 ------------
-* Python 2.7.3 (Newer versions not tested)
+* Python 2.7.10
+* Python 3.4
+* Python 3.5
 * Robot Framework 2.8 
 * xvfbwrapper (python library)
 
