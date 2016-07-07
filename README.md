@@ -36,6 +36,7 @@ Usage
     Documentation     This example demonstrates how to use current library
     Library      Selenium2Library
     Library      XvfbRobot
+
     *** Test Cases ***
     Create Headless Browser
         Start Virtual Display    1920    1080
