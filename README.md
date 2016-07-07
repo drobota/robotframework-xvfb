@@ -7,7 +7,7 @@ Introduction
 
 A simple robot library for creating virtual display which can be used for running selenium tests in headless mode, internally uses a [xvfbwrapper](https://pypi.python.org/pypi/xvfbwrapper/0.2.5).
 
-- Information about keywords can be found on the [Keyword Documentation](https://github.com/drobota/robotframework-xvfb/docs/robotframework-xvfb.html) page.
+- Information about keywords can be found on the [Keyword Documentation](http://pythonhosted.org/robotframework-xvfb/) page.
 
 
 Requirements
