@@ -17,6 +17,7 @@ Requirements
 * Python 3.5
 * Robot Framework 2.8 
 * xvfbwrapper (python library)
+* Xvfb (`sudo apt-get install xvfb, or similar`)
 
 Installation
 ------------
