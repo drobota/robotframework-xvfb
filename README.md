@@ -15,7 +15,7 @@ Requirements
 * Python 2.7.10
 * Python 3.4
 * Python 3.5
-* Robot Framework 2.8 
+* Robot Framework 2.8
 * xvfbwrapper (python library)
 * Xvfb (`sudo apt-get install xvfb, or similar`)
 
@@ -29,7 +29,7 @@ Install pip.
 Enter the following:
 
     pip install robotframework-xvfb
-    
+
 Usage
 ------------
 
@@ -44,9 +44,9 @@ Usage
         Open Browser   http://google.com
         Set Window Size    1920    1080
         ${title}=    Get Title
-        Should Be Equal    Google    {title}
+        Should Be Equal    Google    ${title}
         [Teardown]    Close Browser
-        
+
 Getting Help
 ------------
 The [user group for Robot Framework](http://groups.google.com/group/robotframework-users) is the best place to get help. Include in the post:
